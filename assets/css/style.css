@@ -41,6 +41,13 @@ h3 {
   color: #4aaaa5;
 }
 
+h5 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  color: rgb(238, 236, 236);
+  font-size: 20px;
+}
+
 /* header 1 elements that go everywhere */
 h1 {
   padding-bottom: 20px;
@@ -129,41 +136,6 @@ footer {
   margin-right: 25px;
 }
 
-#masks {
-  overflow: auto;
-  position: relative;
-  float: left;
-  width: 300px;
-  margin: 25px 0 25px;
-}
-
-/* The :nth-child(n) selector matches every element that is the nth child, regardless of type, of its parent. */
-#masks:nth-child(2n) {
-  margin-right: 50px;
-}
-
-
-#masks img {
-  width: 100%;
-  height: auto;
-  opacity: 0.9;
-  border: 0 none;
-}
-
-
-#masks h3 {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
-  line-height: 30px;
-  padding: 15px;
-  margin-bottom: 0;
-  border-bottom: 0;
-  font-weight: 300;
-  color: #ffffff;
-  text-align: center;
-  background: #4aaaa5;
-}
 
 /*W3 School ref: Since the result of using the box-sizing: border-box; is so much better, many developers want all elements on their pages to work this way.
 
@@ -174,6 +146,77 @@ Applying this to all elements is safe and wise:*/
   box-sizing: border-box;
 }
 
+/* connect with me title */
+#cwm {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+  font-size: 25px;
+  line-height: 38px;
+}
+
+
+#about {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.img-fluid {
+  max-width: 80%;
+  max-height: auto;
+  float: left;
+}
+
+.panel-title {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: Bold;
+    color: #4aaaa5;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+.caption {
+  position: relative;
+  background-color: #4aaaa5;
+  font-size: 24px;
+  width: 80%;
+  font-weight: bold;
+  clear: both;
+}
+
+.panel-heading h1 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: Bold;
+  color: #4aaaa5;
+  font-size: 24px;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+  background-color: #4aaaa5;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.container .portfolio {
+  background-color: rgb(240, 235, 235);
+}
+
+.img-thumbnail .img {
+  position: relative;
+}
+
+.img-thumbnail:nth-child(2n) {
+  margin-right: 50px;
+}
+
+.network .img-responsive {
+  max-width: 29%;
+  max-height: auto;
+}
 
 /* contact form slice */
 
@@ -219,24 +262,8 @@ input[type=submit] {
 }
 
 
-/* connect with me title */
-#cwm {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: 700;
-  color: #4aaaa5;
-  font-size: 25px;
-  line-height: 38px;
-}
 
-img {
-  width: 75px;
-  height: 75px;
-}
 
-#about {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: 700;
-  color: #4aaaa5;
-  font-size: 32px;
-  line-height: 40px;
-}
+
+
+
