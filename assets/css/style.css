@@ -66,18 +66,8 @@ h3 {
   border-bottom: 2px solid #eeeeee;
 }
 
-/* this element guy is the top header section outside of the container nav stuff above */
 
-#secondheader {
-  position: fixed;
-  z-index: 99;
-  color: #ffffff;
-  margin: 0 0 30px;
-  overflow: auto;
-  background: #ffffff;
-  border-bottom: 2px solid #cccccc;
-  width: 100%;
-}
+
 
 /* this guy is the id associated with my large name part that links back to the index page */
 #me {
@@ -88,7 +78,7 @@ h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   font-weight: 700;
-  line-height: 90px;
+  line-height: 70px;
   color: #ffffff;
   text-decoration: none;
   background: #4aaaa5;
@@ -128,13 +118,7 @@ footer {
 }
 
 /* 5 picture portfolio slice */
-.auth-image {
-  float: left;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
-}
+
 
 
 /*W3 School ref: Since the result of using the box-sizing: border-box; is so much better, many developers want all elements on their pages to work this way.
@@ -164,6 +148,7 @@ Applying this to all elements is safe and wise:*/
   line-height: 40px;
 }
 
+/* 5 picture portfolio slice */
 .img-fluid {
   max-width: 80%;
   max-height: auto;
@@ -218,7 +203,6 @@ Applying this to all elements is safe and wise:*/
   max-height: auto;
 }
 
-/* contact form slice */
 
 /* list id */
 #con li {
@@ -261,7 +245,20 @@ input[type=submit] {
   border: 0 none;
 }
 
+.btn {
+  background: #4aaaa5;
+  color: #fff;
+}
 
+.form-area {
+  float: left;
+  width: 100%;
+  max-width: 700px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+}
 
 
 
