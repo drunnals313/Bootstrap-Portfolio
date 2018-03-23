@@ -17,11 +17,6 @@ body {
   background-repeat: no-repeat;
 }
 
-#together {
-  clear: both;
-  padding-top: 130px;
-  min-height: calc(100vh - 70px)
-}
 
 /* overall elements that go everywhere */
 
@@ -72,7 +67,6 @@ h3 {
 
 
 
-
 /* this guy is the id associated with my large name part that links back to the index page */
 #me {
   float: left;
@@ -89,7 +83,6 @@ h3 {
 }
 
 
-
 /* footer and all the parameters */
 footer {
   padding: 21px 12px;
@@ -104,9 +97,7 @@ footer {
 }
 
 
-
 /* child container section */
-
 
 #childcontainer {
   float: left;
@@ -117,9 +108,6 @@ footer {
   background: #ffffff;
   border: 1px solid #dddddd;
 }
-
-
-
 
 
 /*W3 School ref: Since the result of using the box-sizing: border-box; is so much better, many developers want all elements on their pages to work this way.
@@ -205,8 +193,6 @@ Applying this to all elements is safe and wise:*/
 }
 
 
-
-
 input[type=submit] {
   padding: 9px 27px;
   font-size: 14px;
@@ -222,46 +208,21 @@ input[type=submit] {
 }
 
 .form-area {
-  float: left;
   width: 100%;
   max-width: 700px;
-  padding: 30px;
-  margin: 0 0 40px;
+  padding: 50px;
+  margin-bottom: 70px;
   background: #ffffff;
-  border: 1px solid #dddddd;
-}
-
-/* do not think I need this css below but need to review*/
-
-
-/* list id */
-#con li {
-  margin-bottom: 21px;
-}
-
-/* list id */
-#con ul {
-  margin-bottom: 21px;
+  border: 1px solid #7e7c7c;
 }
 
 
-label,
-input[type=text],
-input[type=email],
-textarea {
-  display: block;
-  width: 100%;
+.form-area h1 {
+  font-family: "Georgia", "Times", "Times New Roman", "serif";
+  color: #4aaaa5;
+  font-weight: bolder;
+  font-size: 32px;
 }
 
-input[type=text],
-input[type=email],
-textarea {
-  height: 40px;
-  padding: 0 9px;
-  border: 1px solid #ddd;
-  font-size: 14px;
-}
 
-textarea {
-  height: 300px;
-}
+
