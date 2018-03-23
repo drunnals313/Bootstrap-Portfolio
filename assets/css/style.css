@@ -17,7 +17,11 @@ body {
   background-repeat: no-repeat;
 }
 
-
+#together {
+  clear: both;
+  padding-top: 130px;
+  min-height: calc(100vh - 70px)
+}
 
 /* overall elements that go everywhere */
 
@@ -101,11 +105,8 @@ footer {
 
 
 
-/* parent container section */
-#parentcontainer {
-  padding-top: 130px;
-  min-height: calc(100vh - 70px);
-}
+/* child container section */
+
 
 #childcontainer {
   float: left;
@@ -117,7 +118,7 @@ footer {
   border: 1px solid #dddddd;
 }
 
-/* 5 picture portfolio slice */
+
 
 
 
@@ -204,6 +205,35 @@ Applying this to all elements is safe and wise:*/
 }
 
 
+
+
+input[type=submit] {
+  padding: 9px 27px;
+  font-size: 14px;
+  background: #4aaaa5;
+  color: #fff;
+  cursor: pointer;
+  border: 0 none;
+}
+
+.btn {
+  background: #4aaaa5;
+  color: #fff;
+}
+
+.form-area {
+  float: left;
+  width: 100%;
+  max-width: 700px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+}
+
+/* do not think I need this css below but need to review*/
+
+
 /* list id */
 #con li {
   margin-bottom: 21px;
@@ -235,32 +265,3 @@ textarea {
 textarea {
   height: 300px;
 }
-
-input[type=submit] {
-  padding: 9px 27px;
-  font-size: 14px;
-  background: #4aaaa5;
-  color: #fff;
-  cursor: pointer;
-  border: 0 none;
-}
-
-.btn {
-  background: #4aaaa5;
-  color: #fff;
-}
-
-.form-area {
-  float: left;
-  width: 100%;
-  max-width: 700px;
-  padding: 30px;
-  margin: 0 0 40px;
-  background: #ffffff;
-  border: 1px solid #dddddd;
-}
-
-
-
-
-
