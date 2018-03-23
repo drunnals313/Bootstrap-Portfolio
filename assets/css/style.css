@@ -76,13 +76,13 @@ h3 {
 /* this guy is the id associated with my large name part that links back to the index page */
 #me {
   float: left;
-  width: 275px;
-  height: 94px;
+  width: 250px;
+  height: 50px;
   text-align: center;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   font-weight: 700;
-  line-height: 70px;
+  line-height: 40px;
   color: #ffffff;
   text-decoration: none;
   background: #4aaaa5;
@@ -111,7 +111,7 @@ footer {
 #childcontainer {
   float: left;
   width: 100%;
-  max-width: 700px;
+  max-width: 600px;
   padding: 30px;
   margin: 0 0 40px;
   background: #ffffff;
