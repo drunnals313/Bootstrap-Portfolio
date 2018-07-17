@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap-portfolio",
+  "version": "1.0.0",
+  "description": "Employee Ready and Competitive Portfolio Page for Dave Runnals",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drunnals313/Bootstrap-Portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Dave Runnals",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drunnals313/Bootstrap-Portfolio/issues"
+  },
+  "homepage": "https://github.com/drunnals313/Bootstrap-Portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "request": "^2.87.0"
+  }
+}
